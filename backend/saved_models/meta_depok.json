@@ -1,0 +1,14 @@
+{
+  "city_key": "depok",
+  "city_name": "Depok",
+  "window_size": 24,
+  "p95_threshold": 104.1,
+  "scaler": {
+    "x_min": 6.2,
+    "x_max": 194.2
+  },
+  "training_duration_seconds": 14.57,
+  "stopped_epoch": 18,
+  "train_loss": 0.00136,
+  "val_loss": 0.00258
+}

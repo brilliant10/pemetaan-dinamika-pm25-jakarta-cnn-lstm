@@ -1,0 +1,14 @@
+{
+  "city_key": "tangerang",
+  "city_name": "Tangerang",
+  "window_size": 24,
+  "p95_threshold": 93.8,
+  "scaler": {
+    "x_min": 5.2,
+    "x_max": 183.0
+  },
+  "training_duration_seconds": 15.93,
+  "stopped_epoch": 18,
+  "train_loss": 0.00138,
+  "val_loss": 0.00184
+}

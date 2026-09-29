@@ -1,0 +1,697 @@
+{
+  "jakarta": {
+    "city_name": "Jakarta",
+    "full_name": "DKI Jakarta",
+    "p95_threshold": 104.1,
+    "metrics": {
+      "cnn_lstm_attention": {
+        "model_name": "cnn_lstm_attention",
+        "rmse": 8.71,
+        "mae": 5.665,
+        "mape": 7.08,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 148,
+          "tp": 137,
+          "fp": 11,
+          "fn": 21,
+          "tn": 571,
+          "precision": 0.9257,
+          "recall": 0.8671,
+          "f1_score": 0.8954
+        }
+      },
+      "persistence": {
+        "model_name": "persistence",
+        "rmse": 10.051,
+        "mae": 6.86,
+        "mape": 8.44,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 158,
+          "tp": 137,
+          "fp": 21,
+          "fn": 21,
+          "tn": 561,
+          "precision": 0.8671,
+          "recall": 0.8671,
+          "f1_score": 0.8671
+        }
+      },
+      "moving_average_3": {
+        "model_name": "moving_average_3",
+        "rmse": 16.054,
+        "mae": 11.806,
+        "mape": 14.42,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 154,
+          "tp": 120,
+          "fp": 34,
+          "fn": 38,
+          "tn": 548,
+          "precision": 0.7792,
+          "recall": 0.7595,
+          "f1_score": 0.7692
+        }
+      },
+      "moving_average_6": {
+        "model_name": "moving_average_6",
+        "rmse": 23.033,
+        "mae": 17.586,
+        "mape": 21.53,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 153,
+          "tp": 98,
+          "fp": 55,
+          "fn": 60,
+          "tn": 527,
+          "precision": 0.6405,
+          "recall": 0.6203,
+          "f1_score": 0.6302
+        }
+      },
+      "moving_average_12": {
+        "model_name": "moving_average_12",
+        "rmse": 30.233,
+        "mae": 23.864,
+        "mape": 30.04,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 159,
+          "tp": 62,
+          "fp": 97,
+          "fn": 96,
+          "tn": 485,
+          "precision": 0.3899,
+          "recall": 0.3924,
+          "f1_score": 0.3912
+        }
+      }
+    },
+    "training_history": {
+      "loss": [
+        0.01328,
+        0.0103,
+        0.00954,
+        0.00498,
+        0.00326,
+        0.00271,
+        0.00242,
+        0.00215,
+        0.00199,
+        0.00193,
+        0.00177,
+        0.00164,
+        0.00152,
+        0.00155,
+        0.00151,
+        0.0014,
+        0.00139,
+        0.00135
+      ],
+      "val_loss": [
+        0.0269,
+        0.02447,
+        0.01857,
+        0.00782,
+        0.00473,
+        0.00418,
+        0.00608,
+        0.00333,
+        0.00304,
+        0.00278,
+        0.00264,
+        0.00286,
+        0.00285,
+        0.00253,
+        0.00289,
+        0.00247,
+        0.00224,
+        0.00212
+      ]
+    }
+  },
+  "bogor": {
+    "city_name": "Bogor",
+    "full_name": "Kota Bogor",
+    "p95_threshold": 104.1,
+    "metrics": {
+      "cnn_lstm_attention": {
+        "model_name": "cnn_lstm_attention",
+        "rmse": 8.963,
+        "mae": 5.791,
+        "mape": 7.16,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 144,
+          "tp": 136,
+          "fp": 8,
+          "fn": 22,
+          "tn": 574,
+          "precision": 0.9444,
+          "recall": 0.8608,
+          "f1_score": 0.9007
+        }
+      },
+      "persistence": {
+        "model_name": "persistence",
+        "rmse": 10.051,
+        "mae": 6.86,
+        "mape": 8.44,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 158,
+          "tp": 137,
+          "fp": 21,
+          "fn": 21,
+          "tn": 561,
+          "precision": 0.8671,
+          "recall": 0.8671,
+          "f1_score": 0.8671
+        }
+      },
+      "moving_average_3": {
+        "model_name": "moving_average_3",
+        "rmse": 16.054,
+        "mae": 11.806,
+        "mape": 14.42,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 154,
+          "tp": 120,
+          "fp": 34,
+          "fn": 38,
+          "tn": 548,
+          "precision": 0.7792,
+          "recall": 0.7595,
+          "f1_score": 0.7692
+        }
+      },
+      "moving_average_6": {
+        "model_name": "moving_average_6",
+        "rmse": 23.033,
+        "mae": 17.586,
+        "mape": 21.53,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 153,
+          "tp": 98,
+          "fp": 55,
+          "fn": 60,
+          "tn": 527,
+          "precision": 0.6405,
+          "recall": 0.6203,
+          "f1_score": 0.6302
+        }
+      },
+      "moving_average_12": {
+        "model_name": "moving_average_12",
+        "rmse": 30.233,
+        "mae": 23.864,
+        "mape": 30.04,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 159,
+          "tp": 62,
+          "fp": 97,
+          "fn": 96,
+          "tn": 485,
+          "precision": 0.3899,
+          "recall": 0.3924,
+          "f1_score": 0.3912
+        }
+      }
+    },
+    "training_history": {
+      "loss": [
+        0.0132,
+        0.00995,
+        0.00795,
+        0.00444,
+        0.00296,
+        0.00241,
+        0.00222,
+        0.00188,
+        0.00181,
+        0.00178,
+        0.00149,
+        0.00158,
+        0.00141,
+        0.00142,
+        0.00128,
+        0.0013,
+        0.00128,
+        0.00137
+      ],
+      "val_loss": [
+        0.02814,
+        0.02326,
+        0.0127,
+        0.00707,
+        0.00436,
+        0.00342,
+        0.00333,
+        0.00258,
+        0.00311,
+        0.00395,
+        0.00283,
+        0.00228,
+        0.00233,
+        0.00274,
+        0.00252,
+        0.0022,
+        0.00226,
+        0.0025
+      ]
+    }
+  },
+  "depok": {
+    "city_name": "Depok",
+    "full_name": "Kota Depok",
+    "p95_threshold": 104.1,
+    "metrics": {
+      "cnn_lstm_attention": {
+        "model_name": "cnn_lstm_attention",
+        "rmse": 8.838,
+        "mae": 6.033,
+        "mape": 7.85,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 153,
+          "tp": 138,
+          "fp": 15,
+          "fn": 20,
+          "tn": 567,
+          "precision": 0.902,
+          "recall": 0.8734,
+          "f1_score": 0.8875
+        }
+      },
+      "persistence": {
+        "model_name": "persistence",
+        "rmse": 10.051,
+        "mae": 6.86,
+        "mape": 8.44,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 158,
+          "tp": 137,
+          "fp": 21,
+          "fn": 21,
+          "tn": 561,
+          "precision": 0.8671,
+          "recall": 0.8671,
+          "f1_score": 0.8671
+        }
+      },
+      "moving_average_3": {
+        "model_name": "moving_average_3",
+        "rmse": 16.054,
+        "mae": 11.806,
+        "mape": 14.42,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 154,
+          "tp": 120,
+          "fp": 34,
+          "fn": 38,
+          "tn": 548,
+          "precision": 0.7792,
+          "recall": 0.7595,
+          "f1_score": 0.7692
+        }
+      },
+      "moving_average_6": {
+        "model_name": "moving_average_6",
+        "rmse": 23.033,
+        "mae": 17.586,
+        "mape": 21.53,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 153,
+          "tp": 98,
+          "fp": 55,
+          "fn": 60,
+          "tn": 527,
+          "precision": 0.6405,
+          "recall": 0.6203,
+          "f1_score": 0.6302
+        }
+      },
+      "moving_average_12": {
+        "model_name": "moving_average_12",
+        "rmse": 30.233,
+        "mae": 23.864,
+        "mape": 30.04,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 159,
+          "tp": 62,
+          "fp": 97,
+          "fn": 96,
+          "tn": 485,
+          "precision": 0.3899,
+          "recall": 0.3924,
+          "f1_score": 0.3912
+        }
+      }
+    },
+    "training_history": {
+      "loss": [
+        0.01312,
+        0.01007,
+        0.00871,
+        0.00555,
+        0.00424,
+        0.00298,
+        0.00247,
+        0.00223,
+        0.00189,
+        0.00183,
+        0.00159,
+        0.00164,
+        0.00147,
+        0.00143,
+        0.00134,
+        0.00144,
+        0.00138,
+        0.00136
+      ],
+      "val_loss": [
+        0.03058,
+        0.0239,
+        0.01894,
+        0.0138,
+        0.00801,
+        0.00403,
+        0.00375,
+        0.00308,
+        0.00282,
+        0.00351,
+        0.00251,
+        0.003,
+        0.00275,
+        0.00252,
+        0.00237,
+        0.00355,
+        0.00228,
+        0.00258
+      ]
+    }
+  },
+  "tangerang": {
+    "city_name": "Tangerang",
+    "full_name": "Kota Tangerang",
+    "p95_threshold": 93.8,
+    "metrics": {
+      "cnn_lstm_attention": {
+        "model_name": "cnn_lstm_attention",
+        "rmse": 9.264,
+        "mae": 6.061,
+        "mape": 9.3,
+        "spike_detection": {
+          "threshold": 93.8,
+          "total_actual_spikes": 136,
+          "total_predicted_spikes": 145,
+          "tp": 121,
+          "fp": 24,
+          "fn": 15,
+          "tn": 580,
+          "precision": 0.8345,
+          "recall": 0.8897,
+          "f1_score": 0.8612
+        }
+      },
+      "persistence": {
+        "model_name": "persistence",
+        "rmse": 10.002,
+        "mae": 6.339,
+        "mape": 9.66,
+        "spike_detection": {
+          "threshold": 93.8,
+          "total_actual_spikes": 136,
+          "total_predicted_spikes": 136,
+          "tp": 118,
+          "fp": 18,
+          "fn": 18,
+          "tn": 586,
+          "precision": 0.8676,
+          "recall": 0.8676,
+          "f1_score": 0.8676
+        }
+      },
+      "moving_average_3": {
+        "model_name": "moving_average_3",
+        "rmse": 15.146,
+        "mae": 10.584,
+        "mape": 16.52,
+        "spike_detection": {
+          "threshold": 93.8,
+          "total_actual_spikes": 136,
+          "total_predicted_spikes": 137,
+          "tp": 104,
+          "fp": 33,
+          "fn": 32,
+          "tn": 571,
+          "precision": 0.7591,
+          "recall": 0.7647,
+          "f1_score": 0.7619
+        }
+      },
+      "moving_average_6": {
+        "model_name": "moving_average_6",
+        "rmse": 20.413,
+        "mae": 15.124,
+        "mape": 24.43,
+        "spike_detection": {
+          "threshold": 93.8,
+          "total_actual_spikes": 136,
+          "total_predicted_spikes": 127,
+          "tp": 85,
+          "fp": 42,
+          "fn": 51,
+          "tn": 562,
+          "precision": 0.6693,
+          "recall": 0.625,
+          "f1_score": 0.6464
+        }
+      },
+      "moving_average_12": {
+        "model_name": "moving_average_12",
+        "rmse": 26.212,
+        "mae": 20.261,
+        "mape": 34.0,
+        "spike_detection": {
+          "threshold": 93.8,
+          "total_actual_spikes": 136,
+          "total_predicted_spikes": 110,
+          "tp": 55,
+          "fp": 55,
+          "fn": 81,
+          "tn": 549,
+          "precision": 0.5,
+          "recall": 0.4044,
+          "f1_score": 0.4472
+        }
+      }
+    },
+    "training_history": {
+      "loss": [
+        0.01146,
+        0.0095,
+        0.00734,
+        0.00378,
+        0.00276,
+        0.00242,
+        0.002,
+        0.00174,
+        0.00158,
+        0.0015,
+        0.00152,
+        0.0015,
+        0.00146,
+        0.00148,
+        0.00144,
+        0.00139,
+        0.00132,
+        0.00138
+      ],
+      "val_loss": [
+        0.02057,
+        0.01843,
+        0.00941,
+        0.00578,
+        0.00404,
+        0.0047,
+        0.00291,
+        0.00327,
+        0.00309,
+        0.00245,
+        0.00295,
+        0.00354,
+        0.00189,
+        0.00185,
+        0.00199,
+        0.00197,
+        0.002,
+        0.00184
+      ]
+    }
+  },
+  "bekasi": {
+    "city_name": "Bekasi",
+    "full_name": "Kota Bekasi",
+    "p95_threshold": 104.1,
+    "metrics": {
+      "cnn_lstm_attention": {
+        "model_name": "cnn_lstm_attention",
+        "rmse": 8.526,
+        "mae": 5.626,
+        "mape": 7.19,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 151,
+          "tp": 139,
+          "fp": 12,
+          "fn": 19,
+          "tn": 570,
+          "precision": 0.9205,
+          "recall": 0.8797,
+          "f1_score": 0.8997
+        }
+      },
+      "persistence": {
+        "model_name": "persistence",
+        "rmse": 10.051,
+        "mae": 6.86,
+        "mape": 8.44,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 158,
+          "tp": 137,
+          "fp": 21,
+          "fn": 21,
+          "tn": 561,
+          "precision": 0.8671,
+          "recall": 0.8671,
+          "f1_score": 0.8671
+        }
+      },
+      "moving_average_3": {
+        "model_name": "moving_average_3",
+        "rmse": 16.054,
+        "mae": 11.806,
+        "mape": 14.42,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 154,
+          "tp": 120,
+          "fp": 34,
+          "fn": 38,
+          "tn": 548,
+          "precision": 0.7792,
+          "recall": 0.7595,
+          "f1_score": 0.7692
+        }
+      },
+      "moving_average_6": {
+        "model_name": "moving_average_6",
+        "rmse": 23.033,
+        "mae": 17.586,
+        "mape": 21.53,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 153,
+          "tp": 98,
+          "fp": 55,
+          "fn": 60,
+          "tn": 527,
+          "precision": 0.6405,
+          "recall": 0.6203,
+          "f1_score": 0.6302
+        }
+      },
+      "moving_average_12": {
+        "model_name": "moving_average_12",
+        "rmse": 30.233,
+        "mae": 23.864,
+        "mape": 30.04,
+        "spike_detection": {
+          "threshold": 104.1,
+          "total_actual_spikes": 158,
+          "total_predicted_spikes": 159,
+          "tp": 62,
+          "fp": 97,
+          "fn": 96,
+          "tn": 485,
+          "precision": 0.3899,
+          "recall": 0.3924,
+          "f1_score": 0.3912
+        }
+      }
+    },
+    "training_history": {
+      "loss": [
+        0.01267,
+        0.01029,
+        0.00777,
+        0.00432,
+        0.00312,
+        0.00249,
+        0.00232,
+        0.00208,
+        0.00188,
+        0.00175,
+        0.00167,
+        0.0016,
+        0.00148,
+        0.00152,
+        0.00143,
+        0.0015,
+        0.00135,
+        0.00137
+      ],
+      "val_loss": [
+        0.0286,
+        0.02549,
+        0.01031,
+        0.00791,
+        0.00495,
+        0.00411,
+        0.00345,
+        0.00307,
+        0.00278,
+        0.00277,
+        0.00315,
+        0.00229,
+        0.00232,
+        0.00241,
+        0.00259,
+        0.00233,
+        0.00212,
+        0.00217
+      ]
+    }
+  }
+}

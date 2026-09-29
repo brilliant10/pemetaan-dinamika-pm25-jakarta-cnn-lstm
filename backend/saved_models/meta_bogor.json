@@ -1,0 +1,14 @@
+{
+  "city_key": "bogor",
+  "city_name": "Bogor",
+  "window_size": 24,
+  "p95_threshold": 104.1,
+  "scaler": {
+    "x_min": 6.2,
+    "x_max": 194.2
+  },
+  "training_duration_seconds": 14.75,
+  "stopped_epoch": 18,
+  "train_loss": 0.00137,
+  "val_loss": 0.0025
+}
