@@ -7,8 +7,8 @@
     "x_min": 5.2,
     "x_max": 183.0
   },
-  "training_duration_seconds": 15.93,
+  "training_duration_seconds": 15.8,
   "stopped_epoch": 18,
-  "train_loss": 0.00138,
-  "val_loss": 0.00184
+  "train_loss": 0.00161,
+  "val_loss": 0.00341
 }

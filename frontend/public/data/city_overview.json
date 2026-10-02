@@ -12,10 +12,10 @@
     "aqi_level": "unhealthy",
     "aqi_color": "#F59E0B",
     "health_advice": "Mulai berdampak negatif pada kelompok sensitif (anak-anak, lansia, penderita asma). Kenakan masker.",
-    "cnn_lstm_rmse": 8.71,
-    "cnn_lstm_mae": 5.665,
-    "cnn_lstm_mape": 7.08,
-    "cnn_lstm_f1_spike": 0.8954
+    "cnn_lstm_rmse": 8.993,
+    "cnn_lstm_mae": 6.024,
+    "cnn_lstm_mape": 7.87,
+    "cnn_lstm_f1_spike": 0.8831
   },
   {
     "id": "bogor",
@@ -30,10 +30,10 @@
     "aqi_level": "unhealthy",
     "aqi_color": "#F59E0B",
     "health_advice": "Mulai berdampak negatif pada kelompok sensitif (anak-anak, lansia, penderita asma). Kenakan masker.",
-    "cnn_lstm_rmse": 8.963,
+    "cnn_lstm_rmse": 8.733,
     "cnn_lstm_mae": 5.791,
-    "cnn_lstm_mape": 7.16,
-    "cnn_lstm_f1_spike": 0.9007
+    "cnn_lstm_mape": 7.62,
+    "cnn_lstm_f1_spike": 0.8933
   },
   {
     "id": "depok",
@@ -48,10 +48,10 @@
     "aqi_level": "unhealthy",
     "aqi_color": "#F59E0B",
     "health_advice": "Mulai berdampak negatif pada kelompok sensitif (anak-anak, lansia, penderita asma). Kenakan masker.",
-    "cnn_lstm_rmse": 8.838,
-    "cnn_lstm_mae": 6.033,
-    "cnn_lstm_mape": 7.85,
-    "cnn_lstm_f1_spike": 0.8875
+    "cnn_lstm_rmse": 9.029,
+    "cnn_lstm_mae": 5.881,
+    "cnn_lstm_mape": 7.44,
+    "cnn_lstm_f1_spike": 0.8808
   },
   {
     "id": "tangerang",
@@ -66,10 +66,10 @@
     "aqi_level": "moderate",
     "aqi_color": "#3B82F6",
     "health_advice": "Kualitas udara masih dapat diterima, kelompok sangat sensitif disarankan mengurangi aktivitas fisik berat.",
-    "cnn_lstm_rmse": 9.264,
-    "cnn_lstm_mae": 6.061,
-    "cnn_lstm_mape": 9.3,
-    "cnn_lstm_f1_spike": 0.8612
+    "cnn_lstm_rmse": 9.607,
+    "cnn_lstm_mae": 6.33,
+    "cnn_lstm_mape": 9.81,
+    "cnn_lstm_f1_spike": 0.8571
   },
   {
     "id": "bekasi",
@@ -84,9 +84,9 @@
     "aqi_level": "unhealthy",
     "aqi_color": "#F59E0B",
     "health_advice": "Mulai berdampak negatif pada kelompok sensitif (anak-anak, lansia, penderita asma). Kenakan masker.",
-    "cnn_lstm_rmse": 8.526,
-    "cnn_lstm_mae": 5.626,
-    "cnn_lstm_mape": 7.19,
-    "cnn_lstm_f1_spike": 0.8997
+    "cnn_lstm_rmse": 8.817,
+    "cnn_lstm_mae": 5.62,
+    "cnn_lstm_mape": 7.11,
+    "cnn_lstm_f1_spike": 0.8977
   }
 ]

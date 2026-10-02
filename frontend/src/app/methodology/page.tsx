@@ -54,6 +54,12 @@ export default function MethodologyPage() {
             <strong>Periode Waktu:</strong> 1 Januari 2023 00:00 s/d 31 Juli 2023 23:00 (total <strong>5.088 observasi per kota</strong>).
             Sumber data diambil melalui Open-Meteo Air Quality API. Pendekatan bersifat <em>univariat</em> murni berbasis lag PM2.5 tanpa menyertakan variabel meteorologis tambahan pada model inti.
           </p>
+          <div className="p-3.5 bg-amber-950/30 border border-amber-500/30 rounded-xl space-y-1.5 text-xs text-amber-200/90">
+            <strong className="text-amber-300 font-semibold block">Temuan Karakteristik Spasial API (Catatan Keterbatasan Bab 4/5):</strong>
+            <p className="leading-relaxed">
+              Open-Meteo Air Quality menggunakan model reanalisis global Copernicus CAMS dengan resolusi spasial ~0.4° × 0.4° (~40 km). Berdasarkan uji empiris, koordinat Jakarta (-6.20°, 106.85°), Bogor (-6.60°, 106.81°), Depok (-6.40°, 106.79°), dan Bekasi (-6.24°, 106.98°) terpetakan pada grid cell reanalisis yang sama (lat ≈ -6.20°, lon ≈ 106.80°). Sedangkan Kota Tangerang (-6.18°, 106.63°) berada di grid cell barat yang berbeda (lon ≈ 106.60°, 99.6% jam berbeda dengan selisih puncak hingga 106.4 µg/m³). Temuan ini didokumentasikan secara transparan sebagai batasan data reanalisis makro dibandingkan sensor mikro-stasiun darat.
+            </p>
+          </div>
         </div>
       </div>
 

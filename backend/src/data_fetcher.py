@@ -37,9 +37,13 @@ def fetch_city_pm25_from_api(
         times = hourly.get("time", [])
         pm25_values = hourly.get("pm2_5", [])
         
-        if not times or not pm25_values:
-            logger.warning(f"Empty data received from Open-Meteo for ({latitude}, {longitude})")
-            return None
+        res_lat = data.get("latitude")
+        res_lon = data.get("longitude")
+        elevation = data.get("elevation")
+        logger.info(
+            f"Open-Meteo resolved grid for ({latitude}, {longitude}) -> "
+            f"Grid Cell: (lat={res_lat}, lon={res_lon}), Elevation={elevation}m"
+        )
             
         df = pd.DataFrame({
             "timestamp": pd.to_datetime(times),
